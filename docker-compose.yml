@@ -1,0 +1,10 @@
+services:
+    notebooks:
+        container_name: notebooks
+        build: 
+            context: ./notebooks 
+        ports:
+            - 8888:8888
+        volumes:
+            - ./notebooks:/notebooks
+
