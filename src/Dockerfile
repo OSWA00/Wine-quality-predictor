@@ -7,13 +7,11 @@ RUN pip install --upgrade pip
 
 # Install dependencies
 COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Copy source code
 COPY . /data
 COPY . /log
 COPY . /model
-COPY . /notebook
 COPY . /src
 
-CMD ["echo", "Docker image built 🐳"]
