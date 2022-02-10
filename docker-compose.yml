@@ -8,4 +8,11 @@ services:
         volumes:
             - ./notebooks:/notebooks
             - ./data:/data
-
+    production:
+        container_name: production
+        build: 
+            context: ./src
+        volumes:
+            - ./data:/data
+            - ./model:/model
+            - ./log:/log
