@@ -8,7 +8,7 @@ LABEL description="docker image for data science development"
 VOLUME /home/notebooks /home/data
 
 # Set working directory
-WORKDIR /
+WORKDIR /home
 
 # Expose container to host machine
 EXPOSE 8888
