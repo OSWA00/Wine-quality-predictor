@@ -1,11 +1,11 @@
 services:
     notebooks:
-        container_name: notebooks
+        container_name: wine_analysis
         build: 
             context: ./notebooks 
         ports:
             - 8888:8888
         volumes:
-            - ./notebooks:/notebooks
-            - ./data:/data
+            - ./notebooks:/home/notebooks
+            - ./data:/home/data
 
