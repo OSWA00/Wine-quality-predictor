@@ -1,9 +1,8 @@
-# Wine quality predictor
-This is my third project out of ten, on my journey to learn machine learning.
+# Wine quality dataset EDA and model development
+
+Project 3/10 for learning machine learning and data science.
 
 Objectives:
 
-- Regression
-- Classification
-- Determine the quality of wine
-
+- Regression or classification.
+- Determine wine's quality.
